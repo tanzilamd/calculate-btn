@@ -9,10 +9,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <section class="app">
         <div class="container">
-            
+            <h1 class="title">
+                Calculation with Individual Button
+            </h1>
+            <div class="calculator">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="flex">
+                            <div class="input_button">
+                                <form action="#" name="datas">
+                                    <input type="text" name="number1" placeholder="First Number">
+                                    <input type="text" name="number2" placeholder="Second Number">
+                                    <button type="button" onclick="cal(+datas.number1.value, +datas.number2.value)">Calculate</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="flex">
+                            <div class="cal_result">
+                                <ul id="myList">
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>

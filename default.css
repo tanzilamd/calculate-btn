@@ -6,6 +6,7 @@ body {
     padding: 0;
     outline: 0;
     font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
 }
 :root {
     --brand1: #191C25;
