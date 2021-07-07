@@ -17,7 +17,7 @@ body {
     width: 1000px;
     margin: 0 auto;
     background-color: var(--brand2);
-    height: 500px;
+    padding-bottom: 50px;
 }
 a, 
 span, 

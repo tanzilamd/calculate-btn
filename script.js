@@ -5,6 +5,12 @@ function cal(num1, num2) {
     console.log(`Div = ${num1 / num2}`);
     console.log(`Mod = ${num1 % num2}`);
 
+    document.getElementById("myList").innerHTML = "";
+    var node = document.createElement("LI");
+    var textNode = document.createTextNode(`(${num1}, ${num2})`);
+    node.appendChild(textNode);
+    document.getElementById("myList").appendChild(node);
+
     var node = document.createElement("LI");
     var textNode = document.createTextNode(`Sum = ${num1 + num2}`);
     node.appendChild(textNode);
