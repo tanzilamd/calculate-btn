@@ -34,6 +34,7 @@ body {
     color: var(--w);
     width: 60%;
     padding: 10px;
+    min-height: 150px;
 }
 .cal_result ul li {
     padding: 10px;

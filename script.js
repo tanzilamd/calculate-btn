@@ -35,5 +35,8 @@ function cal(num1, num2) {
     var textNode = document.createTextNode(`Mod = ${num1 % num2}`);
     node.appendChild(textNode);
     document.getElementById("myList").appendChild(node);
+
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
 }
 
